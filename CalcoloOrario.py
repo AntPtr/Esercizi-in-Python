@@ -14,7 +14,7 @@ s = -10;
 while s < 0 or s > 59:
     s = int(input("Inserire i secondi: "));
 
-s2 = int(input("Inserire secondo da sommare: "));
+s2 = int(input("Inserire secondi da sommare: "));
 
 print("Orario inziale", h, ":", m, ":", s);
 

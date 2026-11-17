@@ -1,7 +1,0 @@
-print("Giorni un un mese")
-
-giorniMese = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre']
-
-mese = int(input("Inserire numero mese: "))
-print("Il mese di ", mese[mese - 1], " ha ", giorniMese[mese -1], " giorni")
