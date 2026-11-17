@@ -1,0 +1,18 @@
+import matplotib.pyplot as plt
+
+def main():
+    x_coord = [0, 1, 2, 3, 4]
+    y_coord = [0, 3, 1, 5, 2]
+
+    plt.plot(x_ccord, y_coord)
+    plt.title('Vendite per anno')
+    plt.xlabel('Anno')
+    plt.ylabel('Vendite')
+    plt.xticks = (x_coors, ['2021', '2022', '2023', '2024'. '2025'])
+    plt.yticks = (y_coors, ['$0', '$3m', '$1m', '$5'. '$2m'])
+
+    plt.grid(True)
+    plt.show()
+
+    if __name__ == "__main__":
+        main()

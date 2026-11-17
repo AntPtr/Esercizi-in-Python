@@ -1,0 +1,28 @@
+def IsPrimo(Numero):
+    Div = 2;
+    while Div < Numero:
+        if Numero % Div == 0:
+            return false
+        Div += 1
+
+    return true
+
+
+
+def main():
+    print("NUMERO PRIMO")
+
+    Num = 0
+
+    while Num <= 1:
+        Num = input("Inserire un numero: ")
+
+    if IsPrimo(Num):
+        print(num, "E' un numero primo")
+
+    else:
+        print(num, "Non e un numero primo")
+
+
+main()
+    
